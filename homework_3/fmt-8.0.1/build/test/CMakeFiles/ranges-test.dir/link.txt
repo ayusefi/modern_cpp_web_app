@@ -1,0 +1,1 @@
+/usr/lib/ccache/c++  -O3 -DNDEBUG   CMakeFiles/ranges-test.dir/ranges-test.cc.o  -o ../bin/ranges-test libtest-main.a ../libfmt.a gtest/libgtest.a -lpthread 

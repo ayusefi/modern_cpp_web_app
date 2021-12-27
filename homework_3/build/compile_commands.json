@@ -1,0 +1,22 @@
+[
+{
+  "directory": "/home/abdullah/modern_cpp/modern_cpp_web_app/homework_3/build",
+  "command": "/usr/lib/ccache/c++      -o CMakeFiles/html_writer.dir/html_writer.cpp.o -c /home/abdullah/modern_cpp/modern_cpp_web_app/homework_3/html_writer.cpp",
+  "file": "/home/abdullah/modern_cpp/modern_cpp_web_app/homework_3/html_writer.cpp"
+},
+{
+  "directory": "/home/abdullah/modern_cpp/modern_cpp_web_app/homework_3/build",
+  "command": "/usr/lib/ccache/c++   -I/home/abdullah/modern_cpp/modern_cpp_web_app/homework_3/fmt-8.0.1/include    -std=gnu++11 -o CMakeFiles/main.dir/main.cpp.o -c /home/abdullah/modern_cpp/modern_cpp_web_app/homework_3/main.cpp",
+  "file": "/home/abdullah/modern_cpp/modern_cpp_web_app/homework_3/main.cpp"
+},
+{
+  "directory": "/home/abdullah/modern_cpp/modern_cpp_web_app/homework_3/build/fmt-8.0.1",
+  "command": "/usr/lib/ccache/c++   -I/home/abdullah/modern_cpp/modern_cpp_web_app/homework_3/fmt-8.0.1/include    -std=gnu++11 -o CMakeFiles/fmt.dir/src/format.cc.o -c /home/abdullah/modern_cpp/modern_cpp_web_app/homework_3/fmt-8.0.1/src/format.cc",
+  "file": "/home/abdullah/modern_cpp/modern_cpp_web_app/homework_3/fmt-8.0.1/src/format.cc"
+},
+{
+  "directory": "/home/abdullah/modern_cpp/modern_cpp_web_app/homework_3/build/fmt-8.0.1",
+  "command": "/usr/lib/ccache/c++   -I/home/abdullah/modern_cpp/modern_cpp_web_app/homework_3/fmt-8.0.1/include    -std=gnu++11 -o CMakeFiles/fmt.dir/src/os.cc.o -c /home/abdullah/modern_cpp/modern_cpp_web_app/homework_3/fmt-8.0.1/src/os.cc",
+  "file": "/home/abdullah/modern_cpp/modern_cpp_web_app/homework_3/fmt-8.0.1/src/os.cc"
+}
+]

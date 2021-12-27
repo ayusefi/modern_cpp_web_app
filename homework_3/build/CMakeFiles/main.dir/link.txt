@@ -1,0 +1,1 @@
+/usr/lib/ccache/c++    -rdynamic CMakeFiles/main.dir/main.cpp.o  -o main libhtml_writer.a fmt-8.0.1/libfmt.a 
