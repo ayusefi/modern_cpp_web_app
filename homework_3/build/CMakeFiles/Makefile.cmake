@@ -52,7 +52,8 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "CMakeFiles/create_image_browser.dir/DependInfo.cmake"
   "CMakeFiles/html_writer.dir/DependInfo.cmake"
-  "CMakeFiles/main.dir/DependInfo.cmake"
+  "CMakeFiles/image_browser.dir/DependInfo.cmake"
   "fmt-8.0.1/CMakeFiles/fmt.dir/DependInfo.cmake"
   )

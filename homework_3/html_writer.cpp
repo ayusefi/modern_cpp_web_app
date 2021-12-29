@@ -38,10 +38,10 @@ void AddImage(const std::string& img_path, float score, bool highlight = false){
         fmt::print("<div class=\"column\" style=\"border: 5px solid green;\">\n");    
     }
     else{
-        fmt::print("<div class=\"column\" style=\"border: 5px;\">\n");
+        fmt::print("<div class=\"column\">\n");
     }
-    fmt::print("<div class=\"column\" style=\"border: 5px solid green;\">\n");
-    fmt::print("<h2>{}</h2>\n", img_path);
+    std::string img_name = img_path.substr(img_path.find_last_of("/\\") + 1);
+    fmt::print("<h2>{}</h2>\n", img_name);
     fmt::print("<img src=\"{}\" />\n", img_path);
     fmt::print("<p>score = {}</p>\n", score);
     fmt::print("</div>\n");

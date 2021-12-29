@@ -1,7 +1,8 @@
 /home/abdullah/modern_cpp/modern_cpp_web_app/homework_3/build/CMakeFiles/rebuild_cache.dir
-/home/abdullah/modern_cpp/modern_cpp_web_app/homework_3/build/CMakeFiles/html_writer.dir
 /home/abdullah/modern_cpp/modern_cpp_web_app/homework_3/build/CMakeFiles/edit_cache.dir
-/home/abdullah/modern_cpp/modern_cpp_web_app/homework_3/build/CMakeFiles/main.dir
+/home/abdullah/modern_cpp/modern_cpp_web_app/homework_3/build/CMakeFiles/create_image_browser.dir
+/home/abdullah/modern_cpp/modern_cpp_web_app/homework_3/build/CMakeFiles/html_writer.dir
+/home/abdullah/modern_cpp/modern_cpp_web_app/homework_3/build/CMakeFiles/image_browser.dir
 /home/abdullah/modern_cpp/modern_cpp_web_app/homework_3/build/fmt-8.0.1/CMakeFiles/rebuild_cache.dir
 /home/abdullah/modern_cpp/modern_cpp_web_app/homework_3/build/fmt-8.0.1/CMakeFiles/edit_cache.dir
 /home/abdullah/modern_cpp/modern_cpp_web_app/homework_3/build/fmt-8.0.1/CMakeFiles/fmt.dir

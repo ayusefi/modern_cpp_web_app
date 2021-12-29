@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named create_image_browser
+
+# Build rule for target.
+create_image_browser: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 create_image_browser
+.PHONY : create_image_browser
+
+# fast build rule for target.
+create_image_browser/fast:
+	$(MAKE) -f CMakeFiles/create_image_browser.dir/build.make CMakeFiles/create_image_browser.dir/build
+.PHONY : create_image_browser/fast
+
+#=============================================================================
 # Target rules for targets named html_writer
 
 # Build rule for target.
@@ -124,17 +137,17 @@ html_writer/fast:
 .PHONY : html_writer/fast
 
 #=============================================================================
-# Target rules for targets named main
+# Target rules for targets named image_browser
 
 # Build rule for target.
-main: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 main
-.PHONY : main
+image_browser: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 image_browser
+.PHONY : image_browser
 
 # fast build rule for target.
-main/fast:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
-.PHONY : main/fast
+image_browser/fast:
+	$(MAKE) -f CMakeFiles/image_browser.dir/build.make CMakeFiles/image_browser.dir/build
+.PHONY : image_browser/fast
 
 #=============================================================================
 # Target rules for targets named fmt
@@ -148,6 +161,33 @@ fmt: cmake_check_build_system
 fmt/fast:
 	$(MAKE) -f fmt-8.0.1/CMakeFiles/fmt.dir/build.make fmt-8.0.1/CMakeFiles/fmt.dir/build
 .PHONY : fmt/fast
+
+create_image_browser.o: create_image_browser.cpp.o
+
+.PHONY : create_image_browser.o
+
+# target to build an object file
+create_image_browser.cpp.o:
+	$(MAKE) -f CMakeFiles/create_image_browser.dir/build.make CMakeFiles/create_image_browser.dir/create_image_browser.cpp.o
+.PHONY : create_image_browser.cpp.o
+
+create_image_browser.i: create_image_browser.cpp.i
+
+.PHONY : create_image_browser.i
+
+# target to preprocess a source file
+create_image_browser.cpp.i:
+	$(MAKE) -f CMakeFiles/create_image_browser.dir/build.make CMakeFiles/create_image_browser.dir/create_image_browser.cpp.i
+.PHONY : create_image_browser.cpp.i
+
+create_image_browser.s: create_image_browser.cpp.s
+
+.PHONY : create_image_browser.s
+
+# target to generate assembly for a file
+create_image_browser.cpp.s:
+	$(MAKE) -f CMakeFiles/create_image_browser.dir/build.make CMakeFiles/create_image_browser.dir/create_image_browser.cpp.s
+.PHONY : create_image_browser.cpp.s
 
 html_writer.o: html_writer.cpp.o
 
@@ -176,32 +216,32 @@ html_writer.cpp.s:
 	$(MAKE) -f CMakeFiles/html_writer.dir/build.make CMakeFiles/html_writer.dir/html_writer.cpp.s
 .PHONY : html_writer.cpp.s
 
-main.o: main.cpp.o
+image_browser.o: image_browser.cpp.o
 
-.PHONY : main.o
+.PHONY : image_browser.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.cpp.o
-.PHONY : main.cpp.o
+image_browser.cpp.o:
+	$(MAKE) -f CMakeFiles/image_browser.dir/build.make CMakeFiles/image_browser.dir/image_browser.cpp.o
+.PHONY : image_browser.cpp.o
 
-main.i: main.cpp.i
+image_browser.i: image_browser.cpp.i
 
-.PHONY : main.i
+.PHONY : image_browser.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.cpp.i
-.PHONY : main.cpp.i
+image_browser.cpp.i:
+	$(MAKE) -f CMakeFiles/image_browser.dir/build.make CMakeFiles/image_browser.dir/image_browser.cpp.i
+.PHONY : image_browser.cpp.i
 
-main.s: main.cpp.s
+image_browser.s: image_browser.cpp.s
 
-.PHONY : main.s
+.PHONY : image_browser.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/main.cpp.s
-.PHONY : main.cpp.s
+image_browser.cpp.s:
+	$(MAKE) -f CMakeFiles/image_browser.dir/build.make CMakeFiles/image_browser.dir/image_browser.cpp.s
+.PHONY : image_browser.cpp.s
 
 # Help Target
 help:
@@ -210,16 +250,20 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... html_writer"
 	@echo "... edit_cache"
-	@echo "... main"
+	@echo "... create_image_browser"
+	@echo "... html_writer"
+	@echo "... image_browser"
 	@echo "... fmt"
+	@echo "... create_image_browser.o"
+	@echo "... create_image_browser.i"
+	@echo "... create_image_browser.s"
 	@echo "... html_writer.o"
 	@echo "... html_writer.i"
 	@echo "... html_writer.s"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... image_browser.o"
+	@echo "... image_browser.i"
+	@echo "... image_browser.s"
 .PHONY : help
 
 
